@@ -10,7 +10,7 @@
     margin: 0;
 } */
 
-header,
+/* header,
 footer {
   background: #2a6df4;
   color: white;
@@ -65,4 +65,21 @@ blockquote {
   padding-left: 10px;
   margin: 10px 0;
   font-style: italic;
+} */
+
+form {
+    max-width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
 }
