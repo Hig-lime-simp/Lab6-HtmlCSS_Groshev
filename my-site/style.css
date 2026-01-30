@@ -84,18 +84,35 @@ select {
     margin-top: 4px;
 } */
 
-video {
-  display: block; /* Убирает лишнее пространство под видео */
-  background: #000; /* Черный фон для области видео */
-  min-height: 200px; /* Минимальная высота для видео-блока */
+/* video {
+  display: block; 
+  background: #000; 
+  min-height: 200px; 
 }
 
 audio {
-  width: 100%; /* Растягивает аудиоплеер на всю ширину */
-  margin: 15px 0; /* Отступы сверху и снизу */
+  width: 100%; 
+  margin: 15px 0; 
 }
 
 iframe {
-  border: 1px solid #2a6df4; /* Рамка вокруг iframe */
-  background: white; /* Фон на случай пустого iframe */
+  border: 1px solid #2a6df4; 
+  background: white; 
+} */
+ 
+svg {
+  display: block; 
+  margin: 20px auto; 
+  border: 1px solid #d0d7e2; 
+}
+
+svg:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+svg text {
+  font-family: Georgia, serif; 
+  font-size: 24px; 
+  font-weight: bold; 
 }
