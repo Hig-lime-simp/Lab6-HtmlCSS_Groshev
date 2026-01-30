@@ -67,7 +67,7 @@ blockquote {
   font-style: italic;
 } */
 
-form {
+/* form {
     max-width: 400px;
 }
 
@@ -82,4 +82,20 @@ select {
     width: 100%;
     padding: 6px;
     margin-top: 4px;
+} */
+
+video {
+  display: block; /* Убирает лишнее пространство под видео */
+  background: #000; /* Черный фон для области видео */
+  min-height: 200px; /* Минимальная высота для видео-блока */
+}
+
+audio {
+  width: 100%; /* Растягивает аудиоплеер на всю ширину */
+  margin: 15px 0; /* Отступы сверху и снизу */
+}
+
+iframe {
+  border: 1px solid #2a6df4; /* Рамка вокруг iframe */
+  background: white; /* Фон на случай пустого iframe */
 }
